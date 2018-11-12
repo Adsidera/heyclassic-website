@@ -1,26 +1,26 @@
 ---
 ---
 
-$pattern: "{{ site.baseurl }}/images/pattern.png";
-$screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
+$pattern: '{{ site.baseurl }}/images/pattern.png';
+$screenshot-buttons: '{{ site.baseurl }}/images/screenshot-buttons.svg';
 
-$brand-color: #FFA715;
+$brand-color: rgb(248, 196, 26);
 $html-background-color: #222;
-$secondary-brand-color: #FFC461;
+$secondary-brand-color: #ffc461;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
 
 // Breakpoints
-$tablet: "(min-width: 450px)";
-$mid-point: "(min-width: 620px)";
-$desktop: "(min-width: 768px)";
+$tablet: '(min-width: 450px)';
+$mid-point: '(min-width: 620px)';
+$desktop: '(min-width: 768px)';
 
 $section-rotation: 5deg;
 
-@import "elements";
-@import "layout";
-@import "contact";
-@import "blog";
-@import "forms";
-@import "navigation";
-@import "footer";
-@import "cloudcannon";
+@import 'elements';
+@import 'layout';
+@import 'contact';
+@import 'blog';
+@import 'forms';
+@import 'navigation';
+@import 'footer';
+@import 'cloudcannon';
